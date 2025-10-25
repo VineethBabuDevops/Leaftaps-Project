@@ -15,6 +15,7 @@ public class CreateLead extends BaseClass{
 		driver.findElement(By.id("createLeadForm_firstName")).sendKeys("Hari");
 		driver.findElement(By.id("createLeadForm_lastName")).sendKeys("R");
 		driver.findElement(By.name("submitButton")).click();
+		System.out.println("Lead Created Successfully");
 		driver.close();
 }
 }
