@@ -19,7 +19,7 @@ public class EditLead extends BaseClass{
 		driver.findElement(By.linkText("Edit")).click();
 		driver.findElement(By.id("updateLeadForm_companyName")).sendKeys("TCS");
 		driver.findElement(By.name("submitButton")).click();
-		System.out.println("edited");
+		System.out.println("edited by saranya");
 		driver.close();
 }
 }
