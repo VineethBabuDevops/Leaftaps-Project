@@ -3,6 +3,7 @@
   <groupId>per.devops</groupId>
   <artifactId>DevopsProject</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
   <dependencies>
   <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
@@ -91,7 +92,7 @@
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-surefire-plugin</artifactId>
-            <version>3.3.1</version>
+            <version>3.5.4</version>
             <configuration>
                 <includes>
                     <include>**/*Test.java</include>
